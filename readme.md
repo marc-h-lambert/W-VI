@@ -5,7 +5,7 @@
 This is the companion code for the NIPS paper project.  
 
 ## Installation
-The code is available in python using the standard library. Run TestVGP.py. To chnage the test edit the file 
+The code is available in python using the standard library. Run TestVGP.py. To change the test edit the file 
 and put another string in the array TEST.
 
 ## python files
