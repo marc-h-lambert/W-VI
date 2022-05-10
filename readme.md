@@ -1,4 +1,4 @@
-# JKO scheme on the space of Gaussians distribution (Bures-JKO)
+# Variational inference via Wasserstein gradient flows (W-VI)
 
 ## Object
 
