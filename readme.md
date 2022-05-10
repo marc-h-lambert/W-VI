@@ -1,5 +1,5 @@
 # Variational inference via Wasserstein gradient flows (W-VI)
-(TO UPDATE)
+
 ## Object
 
 This is the companion code for the NIPS paper project.  
