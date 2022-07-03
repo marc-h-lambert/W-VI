@@ -21,4 +21,5 @@ The class  [VariationalGP][0] implement the variational Gaussian approximation. 
 [7]: ./Integration.py
 [8]: ./Graphix.py
 [9]: https://github.com/marc-h-lambert/L-RVGA/tree/main/KalmanMachine
+[10]: https://github.com/marc-h-lambert/RVGA/tree/main/KalmanMachine
 
