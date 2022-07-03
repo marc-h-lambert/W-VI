@@ -1,9 +1,9 @@
 
-# The Kalman machine library (v4)
+# The Kalman machine library (v3)
 
 ## Object
 
-This is the fourth version of the Kalman machine library update for the Wasersstein gradient flow. This version only deal with the continuous case (i.e. with ODE) in low dimension. The discrete case and factor analysis variant are available on the others repositories R-VGA and L-RVGA. 
+This is the third version of the Kalman machine library dedicated to Wasersstein gradient flow. This version only deal with the continuous case (i.e. with ODE) in low dimension. The discrete case and factor analysis variant are available on the repository L-RVGA, notice the the code in R-VGA is now deprecated. 
 
 ## Installation
 The code is available in python using the standard library. 
