@@ -13,6 +13,6 @@ The source of the algorithms which implement the Wasserstein variational inferen
 [0]: ./Core
 [1]: ./VGA_main.py
 [2]: ./GMM_main.py
-[4]: ...
+[4]: https://arxiv.org/abs/2205.15902
 
 \[1\]: ["Variational inference via Wasserstein gradient flows , M. Lambert, S. Chewi, S. Bonnabel, F. Bach, P. Rigollet."][4] 
