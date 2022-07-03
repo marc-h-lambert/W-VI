@@ -2,21 +2,17 @@
 
 ## Object
 
-This is the companion code for the NIPS paper project.  
+This is the companion code for the paper \[[1][4]\]. Please cite this paper if you use this code.  
 
 ## Installation
-The code is available in python using the standard library. Run TestVGP.py. To change the running test, edit the file 
-and put another string in the array TEST=["MyTest"].
+The code is available in python using the standard library. 
 
 ## python files
-The source of the library "Core" which implement the assesed algorithms is available in python [here][0] and 
-structured as follows:
-- VariationalGP.py: contain the model for the Gaussian process governed by Sarkka's ODE. and the bank of filters for multi-gaussian sampling (class VGP_bank). 
-- VariationalGMM.py: contain the model for the GaussianMixture class including tools to compute and show the true distribution. Contains also the class VGMM which implement the algorithm to solve the Wasserstein gradient flows on GMM.
-- Integration.py: a set of tools to integrate an ODE. Only the class rk4step (RuneKutta integrator of order 4) is used here.
-- graphix.py: tools to draw ellipses
-
+The source of the algorithms which implement the Wasserstein variational inference is available in python [here][0]. Boths case are managed: approximation of a target distribution with a Gaussian or with a mixture of Gaussian. In each case the target can be a mixture of Gaussians or a logistic target. [VGA_main][1] is the main program to test the variational Gaussian approximation (model with only one Gaussian) whereas [GMM_main][2] is the corresponding test program for mixture of Gaussian model. Both can be run to reproduce some results of the paper run. Notice that only the tests appearing in the string list TEST are run, modify this list in the code to add your desired tets. 
 
 [0]: ./Core
+[1]: ./VGA_main.py
+[2]: ./GMM_main.py
+[4]: ...
 
-
+\[1\]: ["Variational inference via Wasserstein gradient flows , M. Lambert, S. Chewi, S. Bonnabel, F. Bach, P. Rigollet."][4] 
