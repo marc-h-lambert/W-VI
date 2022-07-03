@@ -3,7 +3,7 @@
 
 ## Object
 
-This is the third version of the Kalman machine library dedicated to Wasersstein gradient flow. This version only deal with the continuous case (i.e. with ODE) in low dimension. The discrete case and factor analysis variant are available on the repository L-RVGA, notice the the code in R-VGA is now deprecated. 
+This is the third version of the Kalman machine library dedicated to Wasersstein gradient flow. This version only deal with the continuous case (i.e. with ODE) in low dimension. The discrete case and factor analysis variant are available on the repository [L-RVGA][9], notice the the code in [RVGA][10] is now deprecated. 
 
 ## Installation
 The code is available in python using the standard library. 
@@ -20,4 +20,5 @@ The class  [VariationalGP][0] implement the variational Gaussian approximation. 
 [6]: ./Utils.py
 [7]: ./Integration.py
 [8]: ./Graphix.py
+[9]: https://github.com/marc-h-lambert/L-RVGA/tree/main/KalmanMachine
 
